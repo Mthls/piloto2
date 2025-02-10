@@ -21,5 +21,3 @@ def perfil(request, usuario):
 
 def exibiritem(request,id):
     return render(request,'exibiritem.html',{'id':id})
-
-
