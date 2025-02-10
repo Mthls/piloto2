@@ -20,4 +20,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('home.urls')),
+    path('exibiritem/<int:id>', views.exibiritem,name='exibiritem'),
 ]
